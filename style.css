@@ -39,7 +39,10 @@ body {
     color: #ff9900;
 }
 p{
-	color:purple;
+	color:blue;
+	text-align:center;
+	font-size:1.8rem;
+	font-family: 'Poppins', sans-serif;
 }
 
 
