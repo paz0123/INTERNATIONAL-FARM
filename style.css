@@ -1,0 +1,175 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: grey;
+    color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+/* Main Section */
+.main {
+    background-image: url('./asset/bck.jpg'); /* Add a background image */
+    background-size: cover;
+    background-position: center;
+    color: grey;
+    text-align: center;
+    padding: 100px 40px;
+}
+
+.main .logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.main h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.main .Happy {
+    color: #ff9900;
+}
+p{
+	color:purple;
+}
+
+
+/* Navigation Bar */
+.nav {
+    background-color: #333;
+    padding: 15px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav ul li {
+    display: inline;
+}
+
+.nav ul li a {
+    color: grey;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.nav ul li a:hover {
+    background-color: grey;
+    border-radius: 5px;
+}
+
+/* Section Styles */
+section {
+    padding: 50px 20px;
+    text-align: center;
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Livestock Section */
+#livestock img {
+    width: 45%;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    text-align: left;
+    font-weight: 700;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #ff9900;
+    color: white;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #e68a00;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #livestock img {
+        width: 90%;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    .main h1 {
+        font-size: 2rem;
+    }
+#about h2{
+	color:purple;
+}
+}
